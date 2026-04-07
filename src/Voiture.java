@@ -17,7 +17,6 @@ public class Voiture {
         System.out.println("Modèle : " + Modele);
         System.out.println("Année : " + Annee);
         System.out.println("Prix : " + Prix + " €");
-        System.out.println("Age : " + calculAge());
     }
 
     public void appliquerReduction(double pourcentage){
@@ -25,9 +24,5 @@ public class Voiture {
         System.out.println("Le prix après réduction est de : "+Prix);
     }
 
-    public int calculAge(){
-        int Age = 2026 - Annee;
-        return(Age);
-    }
 
 }
