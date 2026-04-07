@@ -22,6 +22,7 @@ public class Voiture {
     public void appliquerReduction(double pourcentage){
         Prix = Prix*pourcentage;
         System.out.println("Le prix après réduction est de : "+Prix);
+        //
     }
 
 

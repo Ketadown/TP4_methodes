@@ -14,6 +14,7 @@ public class Main {
         v1.appliquerReduction(0.9);
         v1.appliquerReduction(0.8);
         v1.appliquerReduction(0.7);
+        //
     }
 
 }
