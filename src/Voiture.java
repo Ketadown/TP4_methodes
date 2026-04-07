@@ -11,4 +11,12 @@ public class Voiture {
         this.Annee=Annee;
         this.Prix=Prix;
     }
+
+    public void afficherDescription() {
+        System.out.println("Marque : " + Marque);
+        System.out.println("Modèle : " + Modele);
+        System.out.println("Année : " + Annee);
+        System.out.println("Prix : " + Prix + " €");
+    }
+
 }
