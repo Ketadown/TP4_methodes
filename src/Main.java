@@ -5,13 +5,15 @@ public class Main {
 
         Voiture v1 = new Voiture("Peugeot",208,2021,14500);
 
-        //Affichage d'une variable v1 avec la méthode :
+        //Affichage d'une variable v1 avec la méthode MAJ :
 
         v1.afficherDescription ();
 
-        //Utilisation de la méthode appliquerReduction10 :
+        //Utilisation de la méthode appliquerReduction et tests :
 
-        v1.appliquerReduction10();
+        v1.appliquerReduction(0.9);
+        v1.appliquerReduction(0.8);
+        v1.appliquerReduction(0.7);
     }
 
 }
