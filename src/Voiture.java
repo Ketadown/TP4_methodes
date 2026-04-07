@@ -3,7 +3,7 @@ public class Voiture {
     String Marque;
     int Modele;
     int Annee;
-    int Prix;
+    double Prix;
 
     public Voiture(String Marque,int Modele,int Annee, int Prix){
         this.Marque=Marque;
@@ -17,6 +17,11 @@ public class Voiture {
         System.out.println("Modèle : " + Modele);
         System.out.println("Année : " + Annee);
         System.out.println("Prix : " + Prix + " €");
+    }
+
+    public void appliquerReduction10(){
+        Prix = Prix*0.9;
+        System.out.println("Le prix après réduction est de : "+Prix);
     }
 
 }

@@ -8,6 +8,10 @@ public class Main {
         //Affichage d'une variable v1 avec la méthode :
 
         v1.afficherDescription ();
+
+        //Utilisation de la méthode appliquerReduction10 :
+
+        v1.appliquerReduction10();
     }
 
 }
